@@ -3,7 +3,7 @@
 In this project, we will make calls and send SMS using the LTE A7600C1 and ESP32 modules.
 
 ## Wiring
-The power source for the A7600C1 module uses a Li-ion battery with a voltage of 3.7 - 4.2 volts, while the ESP32 uses a 5v voltage from USB. For the connection between the LTE A7600C1 module and ESP32 as follows
+The power source for the A7600C1 module uses a Li-ion battery with a voltage of 3.7 - 4.2 volts connected to VBAT pin, while the ESP32 uses a 5v voltage from USB. For the connection between the LTE A7600C1 module and ESP32 as follows
 
 | A7600C1 | ESP32 |
 | ------ | ------ |

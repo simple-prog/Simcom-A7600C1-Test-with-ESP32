@@ -142,5 +142,5 @@ void SendSMS()
   sendData("AT+CNMI=1,2,0,0,0", 1000, DEBUG);
   sendData("AT+CMGS=\"" + admNumber + "\"\r", 1000, DEBUG);
   sendData(text, 1000, DEBUG);
-  Serial2.write(0x1A); //ascii code for ctrl-26 //sim800.println((char)26); //ascii code for ctrl-26
+  Serial2.write(0x1A); //ascii code for ctrl-26
 }
